@@ -1,0 +1,250 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    padding-top: 80px;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: -webkit-image-set( url('imagenes/banner-soporte-tecnico.jpg') 1x, url('imagenes/vision.png') 2x);
+   
+    background-origin: padding-box;
+    z-index: 1000;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+
+}
+
+header .logo img {
+    height: 100px;
+    border-color: #e2e2e2;
+    border-width: 5px;
+    border-image-slice: 1;
+    border-style: solid;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('imagenes/videowall.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-text-stroke-color: #070707;
+    padding: 150px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #1302f7;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #070707;
+}
+
+.services,
+.products,
+.partners,
+.contact,
+.inicio,
+.social-media {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h2,
+.products h2,
+.partners h2,
+.contact h2,
+.inicio h2,
+.social-media h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.service-list,
+.product-list,
+.partner-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.inicio-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.service-item,
+.product-item,
+.inicio-item,
+.partner-item {
+    flex: 1 1 30%;
+    margin: 20px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover,
+.product-item:hover,
+.inicio-list:hover,
+.partner-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item i {
+    font-size: 3em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.product-item img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.partner-item img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.inicio-item img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.service-item img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact button {
+    background: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+.contact button:hover {
+    background: #555;
+}
+
+.social-media .social-icons {
+    margin-top: 20px;
+}
+
+.social-media .social-icons a {
+    color: #1302f7;
+    margin: 0 15px;
+    font-size: 2.5em;
+    transition: color 0.3s ease;
+}
+
+.social-media .social-icons a:hover {
+    color: #050505;
+}
+
+footer {
+    background: #1302f7;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .social-icons {
+    margin-top: 20px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #1302f7;
+}
